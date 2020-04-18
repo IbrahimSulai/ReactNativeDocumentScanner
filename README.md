@@ -5,7 +5,7 @@ To run the project, execute the below commands in Terminal:
 For creating "node_modules" in the react native project:
 ```sh
 $ cd ReactNativeDocumentScanner
-$ npm install
+$ yarn install
 ```
 
 #### For running the iOS Native App:
