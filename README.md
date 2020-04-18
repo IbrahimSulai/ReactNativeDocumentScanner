@@ -4,7 +4,7 @@
 To run the project, execute the below commands in Terminal:
 For creating "node_modules" in the react native project:
 ```sh
-$ cd DocumentScannerInfinity
+$ cd ReactNativeDocumentScanner
 $ npm install
 ```
 
@@ -13,7 +13,7 @@ $ npm install
 $ cd ios
 $ pod install
 ```
-open Native_iOS_App.xcworkspace
+open DocumentScannerInfinity.xcworkspace
 Run the project
 
 #### For running the Android Native App:
