@@ -16,10 +16,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* DocumentScannerInfinityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DocumentScannerInfinityTests.m */; };
-		4784A90E840D6121093CDF20 /* libPods-DocumentScannerInfinity-DocumentScannerInfinityTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A28A0B027817ED5E43A62B4 /* libPods-DocumentScannerInfinity-DocumentScannerInfinityTests.a */; };
-		843B2392F5D80FB27B416593 /* libPods-DocumentScannerInfinity-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 687852C9607566F87218912C /* libPods-DocumentScannerInfinity-tvOSTests.a */; };
-		AB520E2B36C75773EE6DB62E /* libPods-DocumentScannerInfinity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEEA0EC59F5D324CEABE971B /* libPods-DocumentScannerInfinity.a */; };
-		EA90CB32BD17A7E300E33302 /* libPods-DocumentScannerInfinity-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7888B8F29380862894B46B52 /* libPods-DocumentScannerInfinity-tvOS.a */; };
+		73452A5C2E14E7561C963338 /* libPods-DocumentScannerInfinity-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A1CA39F22ED2A180D381BC /* libPods-DocumentScannerInfinity-tvOS.a */; };
+		8C22E3656F4B1E55A09B7653 /* libPods-DocumentScannerInfinity-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DEBB320FAD9616ECABC335 /* libPods-DocumentScannerInfinity-tvOSTests.a */; };
+		A92C54A6D3183802269F6470 /* libPods-DocumentScannerInfinity-DocumentScannerInfinityTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2EECAE0926CB809A499113 /* libPods-DocumentScannerInfinity-DocumentScannerInfinityTests.a */; };
+		B23FDD969C9D1D08E30B11B9 /* libPods-DocumentScannerInfinity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 396B40FE18BA8C4D2630070F /* libPods-DocumentScannerInfinity.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		00E356EE1AD99517003FC87E /* DocumentScannerInfinityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocumentScannerInfinityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* DocumentScannerInfinityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentScannerInfinityTests.m; sourceTree = "<group>"; };
-		0314D47389741D5716B77E97 /* Pods-DocumentScannerInfinity-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentScannerInfinity-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-DocumentScannerInfinity-tvOSTests/Pods-DocumentScannerInfinity-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* DocumentScannerInfinity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentScannerInfinity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DocumentScannerInfinity/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DocumentScannerInfinity/AppDelegate.m; sourceTree = "<group>"; };
@@ -52,21 +51,38 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DocumentScannerInfinity/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DocumentScannerInfinity/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DocumentScannerInfinity/main.m; sourceTree = "<group>"; };
-		1C3BAD5CC1C11F0A0BD6CC81 /* Pods-DocumentScannerInfinity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentScannerInfinity.release.xcconfig"; path = "Target Support Files/Pods-DocumentScannerInfinity/Pods-DocumentScannerInfinity.release.xcconfig"; sourceTree = "<group>"; };
+		19B93856F50247A39663E4E8 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* DocumentScannerInfinity-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DocumentScannerInfinity-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* DocumentScannerInfinity-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DocumentScannerInfinity-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		344E141253E7A74FBFAEC319 /* Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.release.xcconfig"; path = "Target Support Files/Pods-DocumentScannerInfinity-DocumentScannerInfinityTests/Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.release.xcconfig"; sourceTree = "<group>"; };
-		4F872127F361A848EA8EEA08 /* Pods-DocumentScannerInfinity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentScannerInfinity.debug.xcconfig"; path = "Target Support Files/Pods-DocumentScannerInfinity/Pods-DocumentScannerInfinity.debug.xcconfig"; sourceTree = "<group>"; };
-		577EAF3DB352C0656351825C /* Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.debug.xcconfig"; path = "Target Support Files/Pods-DocumentScannerInfinity-DocumentScannerInfinityTests/Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.debug.xcconfig"; sourceTree = "<group>"; };
-		687852C9607566F87218912C /* libPods-DocumentScannerInfinity-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DocumentScannerInfinity-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7888B8F29380862894B46B52 /* libPods-DocumentScannerInfinity-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DocumentScannerInfinity-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A28A0B027817ED5E43A62B4 /* libPods-DocumentScannerInfinity-DocumentScannerInfinityTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DocumentScannerInfinity-DocumentScannerInfinityTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		92E9581593DA5F4AF2DBBFB6 /* Pods-DocumentScannerInfinity-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentScannerInfinity-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DocumentScannerInfinity-tvOS/Pods-DocumentScannerInfinity-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		B26849C59CADEF8E8A4E53C6 /* Pods-DocumentScannerInfinity-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentScannerInfinity-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DocumentScannerInfinity-tvOSTests/Pods-DocumentScannerInfinity-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33FC3728D3EB49AFA474FDF2 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		34A2FE3438444A369A189FC0 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		34DEBB320FAD9616ECABC335 /* libPods-DocumentScannerInfinity-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DocumentScannerInfinity-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		396B40FE18BA8C4D2630070F /* libPods-DocumentScannerInfinity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DocumentScannerInfinity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D1646D3A304EC5AEF8A782 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		4BEAA3D7CB044622A9C767DC /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		4C0219845C944F3CB79FD58B /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		55421A99C2A0418D8F46CA70 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		5666AE77B21A40558A9D4726 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		5D4E0BC27E6E4CBE85D13F86 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		834FE3B46D4AE0038BC9FB40 /* Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.debug.xcconfig"; path = "Target Support Files/Pods-DocumentScannerInfinity-DocumentScannerInfinityTests/Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8420254F1F865D183556914E /* Pods-DocumentScannerInfinity-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentScannerInfinity-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DocumentScannerInfinity-tvOSTests/Pods-DocumentScannerInfinity-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86D5FDD3C4AD49D68974D7C0 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		8A925097BA5AC44C1A15CD5A /* Pods-DocumentScannerInfinity-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentScannerInfinity-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DocumentScannerInfinity-tvOS/Pods-DocumentScannerInfinity-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BE289802540C40348A55BAA1 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		BE2EECAE0926CB809A499113 /* libPods-DocumentScannerInfinity-DocumentScannerInfinityTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DocumentScannerInfinity-DocumentScannerInfinityTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE81D337DCA76DD157ECADD2 /* Pods-DocumentScannerInfinity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentScannerInfinity.debug.xcconfig"; path = "Target Support Files/Pods-DocumentScannerInfinity/Pods-DocumentScannerInfinity.debug.xcconfig"; sourceTree = "<group>"; };
+		BEBA21F82922A86C4F1895C3 /* Pods-DocumentScannerInfinity-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentScannerInfinity-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-DocumentScannerInfinity-tvOSTests/Pods-DocumentScannerInfinity-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		C21316580CB841058FE9BE19 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		C9853928FC0DF125666F0838 /* Pods-DocumentScannerInfinity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentScannerInfinity.release.xcconfig"; path = "Target Support Files/Pods-DocumentScannerInfinity/Pods-DocumentScannerInfinity.release.xcconfig"; sourceTree = "<group>"; };
+		CE7E5418B23644F8A1250F35 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		D38A8EF3A4024526B18EF7F5 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		DB25C57769BD4B86A0E7A7F3 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EEEA0EC59F5D324CEABE971B /* libPods-DocumentScannerInfinity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DocumentScannerInfinity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F74B84E887D85C64001740E0 /* Pods-DocumentScannerInfinity-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentScannerInfinity-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DocumentScannerInfinity-tvOS/Pods-DocumentScannerInfinity-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F33FC0293A4878C500DFECAE /* Pods-DocumentScannerInfinity-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentScannerInfinity-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DocumentScannerInfinity-tvOS/Pods-DocumentScannerInfinity-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F3A1CA39F22ED2A180D381BC /* libPods-DocumentScannerInfinity-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DocumentScannerInfinity-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAFF7A445926EA22C9EAA7E /* Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.release.xcconfig"; path = "Target Support Files/Pods-DocumentScannerInfinity-DocumentScannerInfinityTests/Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.release.xcconfig"; sourceTree = "<group>"; };
+		FDF1C8F971CB43ABBD8ABDC9 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4784A90E840D6121093CDF20 /* libPods-DocumentScannerInfinity-DocumentScannerInfinityTests.a in Frameworks */,
+				A92C54A6D3183802269F6470 /* libPods-DocumentScannerInfinity-DocumentScannerInfinityTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB520E2B36C75773EE6DB62E /* libPods-DocumentScannerInfinity.a in Frameworks */,
+				B23FDD969C9D1D08E30B11B9 /* libPods-DocumentScannerInfinity.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA90CB32BD17A7E300E33302 /* libPods-DocumentScannerInfinity-tvOS.a in Frameworks */,
+				73452A5C2E14E7561C963338 /* libPods-DocumentScannerInfinity-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843B2392F5D80FB27B416593 /* libPods-DocumentScannerInfinity-tvOSTests.a in Frameworks */,
+				8C22E3656F4B1E55A09B7653 /* libPods-DocumentScannerInfinity-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,12 +157,35 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				EEEA0EC59F5D324CEABE971B /* libPods-DocumentScannerInfinity.a */,
-				8A28A0B027817ED5E43A62B4 /* libPods-DocumentScannerInfinity-DocumentScannerInfinityTests.a */,
-				7888B8F29380862894B46B52 /* libPods-DocumentScannerInfinity-tvOS.a */,
-				687852C9607566F87218912C /* libPods-DocumentScannerInfinity-tvOSTests.a */,
+				396B40FE18BA8C4D2630070F /* libPods-DocumentScannerInfinity.a */,
+				BE2EECAE0926CB809A499113 /* libPods-DocumentScannerInfinity-DocumentScannerInfinityTests.a */,
+				F3A1CA39F22ED2A180D381BC /* libPods-DocumentScannerInfinity-tvOS.a */,
+				34DEBB320FAD9616ECABC335 /* libPods-DocumentScannerInfinity-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56290EDBCBDF4974B025E5AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34A2FE3438444A369A189FC0 /* AntDesign.ttf */,
+				FDF1C8F971CB43ABBD8ABDC9 /* Entypo.ttf */,
+				D38A8EF3A4024526B18EF7F5 /* EvilIcons.ttf */,
+				DB25C57769BD4B86A0E7A7F3 /* Feather.ttf */,
+				5666AE77B21A40558A9D4726 /* FontAwesome.ttf */,
+				55421A99C2A0418D8F46CA70 /* FontAwesome5_Brands.ttf */,
+				C21316580CB841058FE9BE19 /* FontAwesome5_Regular.ttf */,
+				19B93856F50247A39663E4E8 /* FontAwesome5_Solid.ttf */,
+				48D1646D3A304EC5AEF8A782 /* Fontisto.ttf */,
+				33FC3728D3EB49AFA474FDF2 /* Foundation.ttf */,
+				CE7E5418B23644F8A1250F35 /* Ionicons.ttf */,
+				4C0219845C944F3CB79FD58B /* MaterialCommunityIcons.ttf */,
+				86D5FDD3C4AD49D68974D7C0 /* MaterialIcons.ttf */,
+				BE289802540C40348A55BAA1 /* Octicons.ttf */,
+				4BEAA3D7CB044622A9C767DC /* SimpleLineIcons.ttf */,
+				5D4E0BC27E6E4CBE85D13F86 /* Zocial.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -165,6 +204,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				A51622D0DD260F698549A367 /* Pods */,
+				56290EDBCBDF4974B025E5AE /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -185,16 +225,15 @@
 		A51622D0DD260F698549A367 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4F872127F361A848EA8EEA08 /* Pods-DocumentScannerInfinity.debug.xcconfig */,
-				1C3BAD5CC1C11F0A0BD6CC81 /* Pods-DocumentScannerInfinity.release.xcconfig */,
-				577EAF3DB352C0656351825C /* Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.debug.xcconfig */,
-				344E141253E7A74FBFAEC319 /* Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.release.xcconfig */,
-				92E9581593DA5F4AF2DBBFB6 /* Pods-DocumentScannerInfinity-tvOS.debug.xcconfig */,
-				F74B84E887D85C64001740E0 /* Pods-DocumentScannerInfinity-tvOS.release.xcconfig */,
-				B26849C59CADEF8E8A4E53C6 /* Pods-DocumentScannerInfinity-tvOSTests.debug.xcconfig */,
-				0314D47389741D5716B77E97 /* Pods-DocumentScannerInfinity-tvOSTests.release.xcconfig */,
+				BE81D337DCA76DD157ECADD2 /* Pods-DocumentScannerInfinity.debug.xcconfig */,
+				C9853928FC0DF125666F0838 /* Pods-DocumentScannerInfinity.release.xcconfig */,
+				834FE3B46D4AE0038BC9FB40 /* Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.debug.xcconfig */,
+				FDAFF7A445926EA22C9EAA7E /* Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.release.xcconfig */,
+				8A925097BA5AC44C1A15CD5A /* Pods-DocumentScannerInfinity-tvOS.debug.xcconfig */,
+				F33FC0293A4878C500DFECAE /* Pods-DocumentScannerInfinity-tvOS.release.xcconfig */,
+				8420254F1F865D183556914E /* Pods-DocumentScannerInfinity-tvOSTests.debug.xcconfig */,
+				BEBA21F82922A86C4F1895C3 /* Pods-DocumentScannerInfinity-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -205,7 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DocumentScannerInfinityTests" */;
 			buildPhases = (
-				AAEC4364400E17A78734F589 /* [CP] Check Pods Manifest.lock */,
+				F6CA7AAAF3FE743D11DAC161 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,7 +263,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DocumentScannerInfinity" */;
 			buildPhases = (
-				896B69F84BFA4C1D319D9357 /* [CP] Check Pods Manifest.lock */,
+				93B59D72C7141E540EC60786 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -244,7 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DocumentScannerInfinity-tvOS" */;
 			buildPhases = (
-				77325A0078324DF9CE9B7E69 /* [CP] Check Pods Manifest.lock */,
+				B964838B0D912057A2F8F7CE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +303,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DocumentScannerInfinity-tvOSTests" */;
 			buildPhases = (
-				2BB8450F3372F6396DC64862 /* [CP] Check Pods Manifest.lock */,
+				824676D3B0BDA7CDD217D18A /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -292,6 +331,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = VRRTH9J9A8;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -375,7 +415,21 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		2BB8450F3372F6396DC64862 /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		824676D3B0BDA7CDD217D18A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,43 +451,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		77325A0078324DF9CE9B7E69 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DocumentScannerInfinity-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		896B69F84BFA4C1D319D9357 /* [CP] Check Pods Manifest.lock */ = {
+		93B59D72C7141E540EC60786 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,7 +473,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AAEC4364400E17A78734F589 /* [CP] Check Pods Manifest.lock */ = {
+		B964838B0D912057A2F8F7CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DocumentScannerInfinity-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6CA7AAAF3FE743D11DAC161 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -582,7 +622,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 577EAF3DB352C0656351825C /* Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.debug.xcconfig */;
+			baseConfigurationReference = 834FE3B46D4AE0038BC9FB40 /* Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -605,7 +645,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 344E141253E7A74FBFAEC319 /* Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.release.xcconfig */;
+			baseConfigurationReference = FDAFF7A445926EA22C9EAA7E /* Pods-DocumentScannerInfinity-DocumentScannerInfinityTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -625,11 +665,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F872127F361A848EA8EEA08 /* Pods-DocumentScannerInfinity.debug.xcconfig */;
+			baseConfigurationReference = BE81D337DCA76DD157ECADD2 /* Pods-DocumentScannerInfinity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRRTH9J9A8;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -652,11 +693,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C3BAD5CC1C11F0A0BD6CC81 /* Pods-DocumentScannerInfinity.release.xcconfig */;
+			baseConfigurationReference = C9853928FC0DF125666F0838 /* Pods-DocumentScannerInfinity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRRTH9J9A8;
 				INFOPLIST_FILE = DocumentScannerInfinity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -673,7 +715,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92E9581593DA5F4AF2DBBFB6 /* Pods-DocumentScannerInfinity-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 8A925097BA5AC44C1A15CD5A /* Pods-DocumentScannerInfinity-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,7 +743,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F74B84E887D85C64001740E0 /* Pods-DocumentScannerInfinity-tvOS.release.xcconfig */;
+			baseConfigurationReference = F33FC0293A4878C500DFECAE /* Pods-DocumentScannerInfinity-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -729,7 +771,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B26849C59CADEF8E8A4E53C6 /* Pods-DocumentScannerInfinity-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 8420254F1F865D183556914E /* Pods-DocumentScannerInfinity-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -756,7 +798,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0314D47389741D5716B77E97 /* Pods-DocumentScannerInfinity-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = BEBA21F82922A86C4F1895C3 /* Pods-DocumentScannerInfinity-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

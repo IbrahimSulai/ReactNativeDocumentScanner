@@ -1,4 +1,6 @@
 rootProject.name = 'DocumentScannerInfinity'
+include ':rn-fetch-blob'
+project(':rn-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/rn-fetch-blob/android')
 include ':openCVLibrary310'
 project(':openCVLibrary310').projectDir = new File(rootProject.projectDir,'../node_modules/@woonivers/react-native-document-scanner/android/openCVLibrary310')
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
